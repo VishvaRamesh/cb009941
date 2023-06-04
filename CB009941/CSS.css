@@ -425,6 +425,101 @@ table>tbody>tr>td>img{
     background-color: #008b85;
 }
 
+.donate {
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #008b85;
+    text-decoration: none;
+    border: 1px solid #fff;
+    font-weight: bold;
+    padding: 0px 0px;
+    border-radius: 5px;
+}
+
+.donatebox {
+    position: relative;
+    color: #24262b;
+    margin: 20px;
+    padding: 15px;
+    width: 50%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    background: #002321ab;
+}
+
+
+.name {
+    position: relative;
+    margin: 30px 0;
+    width: 400px;
+    color: #24262b;
+}
+
+.name label {
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 1px 1px rgb(151, 150, 150);
+    font-size: 20px;
+    transition: .5s;
+}
+
+.donatevalue h2{
+    color: #f2f2f2;
+}
+
+
+.donatevalue .cancel {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgb(225, 55, 55);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.donatevalue .cancel:hover {
+    box-shadow: 0 5px 8px rgb(0, 0, 0);
+    background-color: #24262b;
+    border: 2px solid rgb(225, 55, 55);
+    cursor:pointer;
+    transition: 0.2s;
+}
+
+.donatevalue .pay {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: #008b85;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.donatevalue .pay:hover {
+    box-shadow: 0 5px 8px rgb(0, 0, 0);
+    transition: 0.2s;
+    background-color: #24262b;
+    border: 2px solid #008b85;
+    cursor:pointer;
+}
+
+.donatevalue .button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 
 /*footer*/
 .container{
